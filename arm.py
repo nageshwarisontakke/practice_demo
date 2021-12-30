@@ -28,6 +28,7 @@ print(findLargest(arr1))
 import json
 student_details = {
     "student_name":"abc", "age":"17",
-    "Subjects":[ "Physics", "Chemistry", "Mathematics","Computer Science", "Hindi","English"] }
+    "Subjects":[ "Physics", "science","Chemistry", "Mathematics","Computer Science", "Hindi","English"] }
+
 stud=json.dumps(student_details)
 print(stud)
